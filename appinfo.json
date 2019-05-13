@@ -1,0 +1,9 @@
+{
+  "name": "Aerial Lidar Ground-Truth",
+  "description": "Verify tree species and height",
+  "createdTime": 1557418260234,
+  "lastUpdated": 1557777808403,
+  "creator": "WEVMAPS",
+  "icon": "images/icon.png",
+  "thumbnail": "images/thumbnail.png"
+}
