@@ -1,0 +1,346 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": false,
+  "zoomto": false,
+  "allowCustom": false,
+  "filters": [
+    {
+      "layerId": "Aerial_LIDAR_GroundTruth_2114",
+      "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/Aerial_LIDAR_GroundTruth/FeatureServer/0",
+      "name": "Tree POINT Height is Blank",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TR_HEIGHT",
+              "label": "TR_HEIGHT",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "TR_HEIGHT IS NULL",
+            "expr": "TR_HEIGHT IS NULL"
+          }
+        ],
+        "expr": "TR_HEIGHT IS NULL",
+        "displaySQL": "TR_HEIGHT IS NULL"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Aerial_LIDAR_GroundTruth_2114",
+      "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/Aerial_LIDAR_GroundTruth/FeatureServer/0",
+      "name": "Tree POINT Other Species is Blank",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TR_SPECIES",
+              "label": "TR_SPECIES",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": "Other"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "UPPER(TR_SPECIES) = 'OTHER'",
+            "expr": "UPPER(TR_SPECIES) = 'OTHER'"
+          },
+          {
+            "fieldObj": {
+              "name": "OT_SPECIES",
+              "label": "OT_SPECIES",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "OT_SPECIES IS NULL",
+            "expr": "OT_SPECIES IS NULL"
+          }
+        ],
+        "expr": "(UPPER(TR_SPECIES) = 'OTHER') AND (OT_SPECIES IS NULL)",
+        "displaySQL": "(UPPER(TR_SPECIES) = 'OTHER') AND (OT_SPECIES IS NULL)"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Aerial_LIDAR_GroundTruth_2810",
+      "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/Aerial_LIDAR_GroundTruth/FeatureServer/1",
+      "name": "Tree POLY Height is Blank",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TR_HEIGHT",
+              "label": "TR_HEIGHT",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "TR_HEIGHT IS NULL",
+            "expr": "TR_HEIGHT IS NULL"
+          }
+        ],
+        "expr": "TR_HEIGHT IS NULL",
+        "displaySQL": "TR_HEIGHT IS NULL"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Aerial_LIDAR_GroundTruth_2810",
+      "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/Aerial_LIDAR_GroundTruth/FeatureServer/1",
+      "name": "Tree POLY Count is Blank",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TREE_COUNT",
+              "label": "TREE_COUNT",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "TREE_COUNT IS NULL",
+            "expr": "TREE_COUNT IS NULL"
+          }
+        ],
+        "expr": "TREE_COUNT IS NULL",
+        "displaySQL": "TREE_COUNT IS NULL"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Aerial_LIDAR_GroundTruth_2810",
+      "url": "https://services3.arcgis.com/zqOoSc3llV8uXFYF/arcgis/rest/services/Aerial_LIDAR_GroundTruth/FeatureServer/1",
+      "name": "Tree POLY Other Species is Blank",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TR_SPECIES",
+              "label": "TR_SPECIES",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": "Other"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "UPPER(TR_SPECIES) = 'OTHER'",
+            "expr": "UPPER(TR_SPECIES) = 'OTHER'"
+          },
+          {
+            "fieldObj": {
+              "name": "OT_SPECIES",
+              "label": "OT_SPECIES",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "OT_SPECIES IS NULL",
+            "expr": "OT_SPECIES IS NULL"
+          }
+        ],
+        "expr": "(UPPER(TR_SPECIES) = 'OTHER') AND (OT_SPECIES IS NULL)",
+        "displaySQL": "(UPPER(TR_SPECIES) = 'OTHER') AND (OT_SPECIES IS NULL)"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    }
+  ]
+}
