@@ -1,0 +1,65 @@
+{
+  "selectByShape": true,
+  "selectByFeature": false,
+  "selectByFeatureQuery": false,
+  "toggleLayersOnOpen": false,
+  "updateLayers": [
+    {
+      "id": "Aerial_LIDAR_GroundTruth_2810",
+      "name": "Tree Species poly",
+      "queryField": "",
+      "selectionSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      }
+    }
+  ],
+  "selectByLayer": {},
+  "commonFields": [
+    {
+      "alias": "LAN ID",
+      "name": "LAN_ID"
+    },
+    {
+      "alias": "Date",
+      "name": "INSP_DATE"
+    },
+    {
+      "alias": "Tree Species",
+      "name": "TR_SPECIES"
+    },
+    {
+      "alias": "Other Species",
+      "name": "OT_SPECIES"
+    },
+    {
+      "alias": "Tree Height",
+      "name": "TR_HEIGHT"
+    },
+    {
+      "alias": "Tree Count",
+      "name": "TREE_COUNT"
+    },
+    {
+      "alias": "Comments",
+      "name": "COMMENT"
+    }
+  ]
+}
